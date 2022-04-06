@@ -1,0 +1,53 @@
+/* body {
+    margin: 0px;
+} */
+
+header {
+    height: 455px;
+    background: linear-gradient(to bottom, rgb(9, 243, 243), rgb(2, 29, 29));
+    margin-top: 0px,
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+
+
+/* Section 1 and 2 */
+.section-one {
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 75px;
+}
+
+.section-one h2 {
+    color: rgb(23, 158, 158);
+    letter-spacing: 2px;
+}
+
+.section-two {
+    text-align: right;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 75px;
+}
+
+.section-two h2 {
+    color: rgb(23, 158, 158);
+    letter-spacing: 2px;
+}
+/* End of Sections */
+
+footer {
+    text-align: center;
+    background-color: rgb(2, 29, 29);
+    height: 100px;
+}
+
+footer p {
+    color: white;
+    padding-top: 45px;
+}
