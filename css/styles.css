@@ -1,23 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0px;
-    overflow-x: hidden;
 }
 
 
 /* Header */
 header {
-    height: 400px;
-    background: linear-gradient(to bottom, rgb(9, 243, 243), rgb(2, 29, 29));
-    position: relative;
+    height: 530px;
+    background: linear-gradient(to bottom, rgb(21, 167, 167), rgb(1, 19, 32));
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;       /* helps keep wave to the edge of header */
 }
 
 header h1 {
     color: white;
-    padding: 105px 20vw;
+    padding: 115px;
     font-family: 'Lato', sans-serif;
+}
+
+header .waves {
+    position: absolute;    /* keeps it width to be 100% */
+    bottom: 0;             /* moves it to the bottom */
+    width: 100%;
+    left: 0;
 }
 /* End of Header */
 
@@ -27,7 +37,7 @@ header h1 {
     text-align: left;
     margin-left: 150px;
     margin-right: 150px;
-    margin-top: 75px;
+    /* margin-top: 5px; */
 }
 
 .section-one h2 {
@@ -39,7 +49,7 @@ header h1 {
     text-align: right;
     margin-left: 150px;
     margin-right: 150px;
-    margin-bottom: 75px;
+    margin-bottom: 90px;
 }
 
 .section-two h2 {
@@ -52,7 +62,7 @@ header h1 {
 /* Footer */
 footer {
     text-align: center;
-    background-color: rgb(2, 29, 29);
+    background-color: rgb(1, 19, 32);
     height: 100px;
 }
 
