@@ -1,18 +1,55 @@
-/* body {
+body {
     margin: 0px;
-} */
+    overflow-x: hidden;
+}
 
+
+/* Header */
 header {
-    height: 455px;
+    height: 400px;
     background: linear-gradient(to bottom, rgb(9, 243, 243), rgb(2, 29, 29));
-    margin-top: 0px,
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header h1 {
     color: white;
-    text-align: center;
-    padding-top: 200px;
+    padding: 105px 20vw;
+    font-family: 'Lato', sans-serif;
 }
+
+.wave {
+    position: absolute;
+    height: 225px;
+    width: 100%;
+    bottom: 0;
+}
+
+.wave::before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: white;
+    transform: translate(85.21%, 60%);
+}
+
+.wave::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background: rgb(2, 29, 29);
+    transform: translate(-4%, 40.8%);
+    z-index: -1;
+}
+/* End of Header */
 
 
 /* Section 1 and 2 */
@@ -20,7 +57,7 @@ header h1 {
     text-align: left;
     margin-left: 150px;
     margin-right: 150px;
-    margin-top: 75px;
+    margin-top: 175px;
 }
 
 .section-one h2 {
@@ -41,6 +78,8 @@ header h1 {
 }
 /* End of Sections */
 
+
+/* Footer */
 footer {
     text-align: center;
     background-color: rgb(2, 29, 29);
@@ -51,3 +90,4 @@ footer p {
     color: white;
     padding-top: 45px;
 }
+/* End of Footer */
