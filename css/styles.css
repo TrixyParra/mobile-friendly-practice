@@ -71,3 +71,22 @@ footer p {
     padding-top: 45px;
 }
 /* End of Footer */
+
+
+@media (max-width:1024px) {
+    header {
+        background: lightgreen;
+    }
+}
+
+@media (max-width:768px) {
+    header {
+        background: lightskyblue;
+    }
+}
+
+@media (max-width:500px) {
+    header {
+        background: lightslategray;
+    }
+}
