@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+
+/* Header */
+header {
+    height: 530px;
+    background: linear-gradient(to bottom, rgb(21, 167, 167), rgb(1, 19, 32));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;       /* helps keep wave to the edge of header */
+}
+
+header h1 {
+    color: white;
+    padding: 115px;
+    font-family: 'Lato', sans-serif;
+}
+
+header .waves {
+    position: absolute;    /* keeps it width to be 100% */
+    bottom: 0;             /* moves it to the bottom */
+    width: 100%;
+    left: 0;
+}
+/* End of Header */
+
+
+/* Section 1 and 2 */
+.section-one {
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 150px;
+    /* margin-top: 5px; */
+}
+
+.section-one h2 {
+    color: rgb(23, 158, 158);
+    letter-spacing: 2px;
+}
+
+.section-two {
+    text-align: right;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 90px;
+}
+
+.section-two h2 {
+    color: rgb(23, 158, 158);
+    letter-spacing: 2px;
+}
+/* End of Sections */
+
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: rgb(1, 19, 32);
+    height: 100px;
+}
+
+footer p {
+    color: white;
+    padding-top: 45px;
+}
+/* End of Footer */
